@@ -70,6 +70,7 @@ res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<
   var varInput = document.getElementById("ingreso").value; 
   function Usuario(useId,id,title,completed){
 
+
       this.useId = 1, 
       this.id = res.length,
       this.title = varInput,
