@@ -61,4 +61,5 @@ var res = [
   },  
 ];
 
+//forEach que entrega los elementos especificos de json
 res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<li>" + element.title +  "</li>" + "<br>";})
