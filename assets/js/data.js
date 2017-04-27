@@ -80,3 +80,4 @@ res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<
   var sumObj = new Usuario(this.title)
     return res.push(sumObj)
 }
+*/
