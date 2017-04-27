@@ -1,0 +1,16 @@
+body {
+	font-weight: 200;	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: #FAFAFA; 
+}
+h1{
+	font-weight: 500;	
+	color: #F9BF01;
+}
+
+.listatexto{
+	font-weight: 400;
+	color: #E0AC00;
+}
