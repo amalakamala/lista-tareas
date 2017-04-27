@@ -28,6 +28,18 @@
 
 	</section>
 
+	<section>	
+		<label for="select-lista">Escoge elemento de la lista pararealizar cambio</label><br>	
+		<select name="elemento" class="cambio">
+			<option value="" selected="selected" disabled>- selecciona -</option>
+		</select>
+
+		<label for="camlista" class="cambiotexto">Haz el cambio que deseas:</label>
+		<input name ="camlista" placeholder="Cambia tu Tarea" id="cambio-tarea" type="text"/ required>
+
+		<button type="button" onclick="cambioOpcion()">Cambiar</button>
+	</section>
+
 	<script src="assets/js/data.js" type="text/javascript"></script>
 	<script src="assets/js/main.js" type="text/javascript"></script>
 </body>

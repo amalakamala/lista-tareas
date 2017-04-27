@@ -63,3 +63,19 @@ var res = [
 
 //forEach que entrega los elementos especificos de json
 res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<li>" + element.title +  "</li>" + "<br>";})
+
+
+//No alcance a enternder que habia que hacer un objeto
+
+
+function Usuario(useId,id,title,completed){
+
+      this.useId = 1, 
+      this.id = res.length,
+      this.title = varInput,
+      this.completed = false,
+  } 
+
+  var sumObj = new Usuario(this.title)
+    return res.push(sumObj)
+
