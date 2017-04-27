@@ -65,10 +65,12 @@ var res = [
 res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<li>" + element.title +  "</li>" + "<br>";})
 
 
-//No alcance a enternder que habia que hacer un objeto
+//No alcance a enternder que habia que hacer un objeto para el boton para ingresar elementos y vincarlo para que ingrese a un objeto
 
 
-function Usuario(useId,id,title,completed){
+function botonClick(){
+  var varInput = document.getElementById("ingreso").value; 
+  function Usuario(useId,id,title,completed){
 
       this.useId = 1, 
       this.id = res.length,
@@ -78,4 +80,4 @@ function Usuario(useId,id,title,completed){
 
   var sumObj = new Usuario(this.title)
     return res.push(sumObj)
-
+}
