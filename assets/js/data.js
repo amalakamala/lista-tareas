@@ -61,4 +61,4 @@ var res = [
   },  
 ];
 
-
+res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<li>" + element.title +  "</li>" + "<br>";})
