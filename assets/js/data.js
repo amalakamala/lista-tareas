@@ -66,7 +66,7 @@ res.forEach(function(element){document.getElementById("lista-j").innerHTML += "<
 
 
 //No alcance a enternder que habia que hacer un objeto para el boton para ingresar elementos y vincarlo para que ingrese a un objeto
-function botonClick(){
+/* function botonClick(){
   var varInput = document.getElementById("ingreso").value; 
   function Usuario(useId,id,title,completed){
 
