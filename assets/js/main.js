@@ -10,7 +10,6 @@ function nombreFuncion(){
 	}else{
 		cambioText[0].innerHTML += "<option class='laMediaSeleccion' value="">" + document.getElementById("ingreso").value + "</option>";
 		
-		var nuevo = new Persona(
 		contListas[0].innerHTML += "<li class='laMediaLista'>"+ varInput.value + "</li>" + "<br>";
 		document.getElementById("ingreso").value = " "; 
 		//Tambien se puede ingresar varInput.value = " ";
