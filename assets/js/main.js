@@ -17,6 +17,7 @@ function nombreFuncion(){
 	}
 }
 
+
 function cambioOpcion(){
 	var laLista = document.getElementsByClassName("laMediaLista");
 	var laSelect = document.getElementsByClassName("laMediaSeleccion");	
