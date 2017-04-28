@@ -15,7 +15,6 @@ function nombreFuncion(){
 		document.getElementById("ingreso").value = " "; 
 		//Tambien se puede ingresar varInput.value = " ";
 	}
-	
 }
 
 function cambioOpcion(){
